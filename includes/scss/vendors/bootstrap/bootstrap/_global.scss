@@ -1,0 +1,158 @@
+//
+// Global Template Imobiliaria
+// --------------------------------------------------
+
+
+// Header
+
+.header-top{
+  position: absolute;
+   left: 35%;
+   top: 50%; 
+   margin-left: -150px; 
+   margin-top: -150px;
+   z-index:1; 
+}
+.logo-header{
+  background:no-repeat url(../../img/logo-miguez.png);
+  width:372px;
+  height:149px;  
+  display:inline-block;
+}
+.logo-header a{
+  width:372px;
+  height:149px;
+  display:inline-block;
+  text-indent:-999999px;
+}
+
+
+// Search
+.header-search{
+  float:none;
+}
+.header-search .form-group{
+  border-left: 1px solid $red;
+}
+.header-search .form-group:first-child{
+  border:0px;
+}
+.header-search .form-control{
+  border-radius: 0px;
+  border:none;
+  height:40px;
+  -webkit-box-shadow: 0px 0px 0px 0px;
+  -moz-box-shadow: 0px 0px 0px 0px ;
+  box-shadow: 0px 0px 0px 0px;
+  font-size:18px;
+}
+.header-search .btn{
+  border-radius: 0px;
+  font-size:18px;
+}
+.search-box{
+  background-color: #fff;
+  border-radius:4px;
+  opacity: 0.86;  
+  filter: alpha(opacity=86); 
+  padding:2px; 
+  margin-bottom:5px;
+}
+.search-box .glyphicon-search{
+  margin-left:10px;
+}
+.form-type .bootstrap-select,.form-type .form-control{
+  width:150px
+}
+.form-room .bootstrap-select{
+  width:180px
+}
+.form-value .bootstrap-select{
+  width:167px
+}
+
+
+//Menu
+.menu-principal{
+  border-bottom:4px solid #d9d9d9;
+  border-top:2px solid #d9d9d9;
+}
+
+// Gallery
+
+#imageview img{
+  max-width:500px;
+  height:auto;
+}
+#thumbnails {
+  margin-top:94px;
+}
+#thumbnails .carret-gly{
+  display:none;
+}
+#thumbnails .active .carret-gly{
+  top: 44%;
+  left: 84%;
+  display: inline;
+  position: absolute;
+  color:$red;
+}
+#thumbnails .active img{
+  border:3px solid $red;
+}
+.image-gallery{
+  padding-top:20px;
+}
+.banner-seal{
+  background:no-repeat url(../../img/selo-qualidade.png);
+  height:520px;
+}
+
+// List Homes
+.lt-homes{margin-top:20px;}
+.lt-homes .tit-home{border-bottom:1px solid #dfdfdf;height:60px}
+.lt-homes .desc-homes{width:50px;height:20px;color:#fff;position:absolute;top:0px;right:0px;}
+.lt-homes .info-value{border-bottom:1px solid #dfdfdf;height:35px;padding-top:6px;}
+.lt-homes .lt-stars li{float:left;}
+.lt-homes .info-home{height:45px;padding-top:5px;}
+.lt-homes .it-homes{border-bottom:1px solid #d3d3d3;position:relative;}
+.lt-homes .it-homes:hover{border:3px solid #ccc}
+.lt-homes .bt-homes{position:absolute;bottom:-18px;left:24%;}
+.lt-homes .it-homes:hover .bt-homes{background-color:#ffea00;color:#333}
+.lt-homes .it-homes:hover img{opacity: 0.75;filter: alpha(opacity=75); }
+
+// Box Destak 
+.box-dotted{border-top:1px dashed #666666;border-bottom:1px dashed #666666;margin:40px 0px;padding:10px 0px;}
+.box-dotted h2{margin-bottom:0px;}
+.box-dotted h3{margin-top:0px;}
+
+// Box Contact
+.bx-contact{clear:left;margin-top:55px;padding:70px 0px;}
+.bx-contact h1{margin-top:0px;}
+.bx-contact h3{margin:0px;}
+.line-sep{border-left:1px solid #fff;padding-bottom:40px;}
+.bx-contact textarea{height:80px;resize:none;}
+
+
+// Footer
+.menu-footer{padding-top:10px;border-bottom:1px solid #ccc;height:61px;}
+.btn-email{padding:1px 2px;background-color:#000;color:#fff;}
+.cp-email-footer{border:0px;border-left:1px solid #ccc;padding-left:10px;height:40px;margin-top:10px;}
+.menu-footer .bg-danger-dark{font-family:'FontAwesome';}
+.bx-dep .dep-info{margin-left:10px;}
+.bx-dep .dep-info h5{margin-bottom:3px;}
+.bx-dep p{clear:left;}
+.lt-footer li{border-bottom:1px solid #051b35; color:#ccc;line-height:32px;}
+
+// Apt Page
+.bx-apt{position:relative;}
+.bx-info-apt{position:absolute;padding-top:60px;background:repeat url(../../img/bg-info-apt.png);right:0px; top:0px;height:400px;}
+.bx-inside{background-position:right;background-image:url(../../img/line.png);background-repeat:no-repeat;position:relative;margin-top:40px;}
+.bx-inside-ul{margin-left:60px;margin-top:40px;}
+.btn-agende{position:absolute;bottom:0px;}
+.bx-info-apt h1{width:360px;padding-bottom:10px;border-bottom:1px solid #a4252a;}
+.lt-picture{clear:left;padding-top:30px;}
+.lt-picture li{width:30%;float:left;margin-right:30px;margin-bottom:20px;}
+.bx-more-info{margin-top:40px;height:465px;}
+.bx-more-info h3{padding-top:10px;}
+.bx-more-info .btn-info{color:#575855;}
